@@ -1,4 +1,6 @@
 {
-  "name": "service-request-form",
-  "dependencies": {}
+  "name": "plus2019-lab-template",
+  "dependencies": {
+    "gmail-send": ""
+  }
 }

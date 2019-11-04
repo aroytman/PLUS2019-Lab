@@ -3,6 +3,15 @@
   "git repositories": [
     ""
   ],
-  "app start": "app.js",
-  "routes": {}
+  "app start": "start.js",
+  "routes": {
+    "web_services/get_all.js": {
+      "method": "get",
+      "route": "requests"
+    },
+    "web_services/get_one.js": {
+      "method": "get",
+      "route": "requests/:id"
+    }
+  }
 }
